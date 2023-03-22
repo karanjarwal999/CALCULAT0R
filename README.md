@@ -1,6 +1,9 @@
 # CALCULAT0R
 A simple and responsive web calculator to perform mathematical oprations
 
+
+Live at :- [netlify](https://cozy-gaufre-071821.netlify.app/)
+
 some pic of a nice working calci.
 
 
