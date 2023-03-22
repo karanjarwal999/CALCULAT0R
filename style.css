@@ -1,0 +1,103 @@
+#title{
+    font-size: 40px;
+    text-align: center;
+}
+#parent{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.Container{
+    display: grid;
+    height: 78%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 15px;
+}
+button{
+    cursor: pointer;
+    box-shadow: lightgray 0px 0px 8px 0px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+
+#deletelast{
+    rotate: 180deg;
+}
+#display{
+    width: 98%;
+    height: 15%;
+    margin-bottom: 30px;
+    box-shadow: lightgray 0px 2px 8px 0px;
+    border: none;
+    font-size: 30px;
+    text-align: end;
+    padding-right: 10px;
+    
+}
+#equalTo{
+    grid-row-start:4;
+    grid-row-end: 6;
+    grid-column-start: 4;
+}
+
+@media screen and (max-width:600px) {
+    #parent{
+        width: 400px;
+        height: 500px;
+    }
+    .Container{
+        height: 78%;
+    }
+    #display{
+        width: 98%;
+        height: 15%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:450px) {
+    #parent{
+        width: 350px;
+        height: 500px;
+    }
+    .Container{
+        height: 78%;
+    }
+    #display{
+        width: 98%;
+        height: 15%;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:400px) {
+    #parent{
+        width: 250px;
+        height: 350px;
+    }
+    .Container{
+        height: 78%;
+    }
+    #display{
+        width: 98%;
+        height: 15%;
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px;
+    }
+}
