@@ -2,6 +2,15 @@
     font-size: 40px;
     text-align: center;
 }
+#historyfunc{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+#historyclick{
+    display: none;
+    height: 100%;
+}
 #parent{
     width: 500px;
     height: 600px;
@@ -55,11 +64,38 @@ button{
     grid-row-end: 6;
     grid-column-start: 4;
 }
+#historybtn{
+    padding-top: 5px;
+    width: 500px;
+    margin: auto;
+}
+.historydiv{
+    height: 95%;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow-y:scroll ;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.question{
+    font-size: 20px;
+    margin: 5px 0px;  
+}
+.answer{
+    margin: 5px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 @media screen and (max-width:600px) {
     #parent{
         width: 400px;
         height: 500px;
+    }
+    #historybtn{
+        width: 400px; 
     }
     .Container{
         height: 78%;
@@ -75,6 +111,9 @@ button{
         width: 350px;
         height: 500px;
     }
+    #historybtn{
+        width: 350px; 
+    }
     .Container{
         height: 78%;
     }
@@ -88,6 +127,9 @@ button{
     #parent{
         width: 250px;
         height: 350px;
+    }
+    #historybtn{
+        width: 250px; 
     }
     .Container{
         height: 78%;
