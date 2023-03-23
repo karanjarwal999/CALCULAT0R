@@ -8,7 +8,7 @@ We can type by mouse or after clicking its display we can also type by numberpad
 After performing our opration it automaticaly store our opration data and by clicking History button we can see operations that we have done in past
 
 
-Live at :- [netlify](https://cozy-gaufre-071821.netlify.app/)
+Live at :- [netlify](https://dashing-frangollo-360334.netlify.app/)
 
 * Some picture while working-
 
