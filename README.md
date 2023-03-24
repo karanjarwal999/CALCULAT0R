@@ -1,5 +1,5 @@
 # CALCULAT0R
-Live at :- [netlify](https://dashing-frangollo-360334.netlify.app/)
+Live at :- [Netlify](https://dashing-frangollo-360334.netlify.app/)
 
 A simple and responsive web calculator to perform mathematical oprations
 
