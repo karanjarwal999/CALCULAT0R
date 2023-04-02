@@ -12,7 +12,8 @@ After performing our opration it automaticaly store our opration data and by cli
 
 * Some Instructions
 
- 1. Backspace--> to delete one charecter
+ -Backspace
+ to delete one charecter
 
  2. c     --> to clear screen 
 
